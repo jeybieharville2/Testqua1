@@ -19,7 +19,7 @@ public:
 
         hra = 800;
         da = 0.25 * basic_salary;
-        i_tax = 0.69 * basic_salary;
+        i_tax = 0.72 * basic_salary;
         net_salary = basic_salary + da + hra - i_tax;
     }
     void display_details()
